@@ -38,6 +38,15 @@ nav {
 body {
     padding-top: 70px;
 }
+.navbar {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
 
 nav h2{
     font-size:28px;
