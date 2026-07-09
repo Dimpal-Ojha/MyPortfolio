@@ -642,41 +642,21 @@ footer{
 }
 @media(max-width:768px){
 
-    nav{
-        flex-direction:column;
-        text-align:center;
+    .profile-pic{
+        width:140px;
+        height:140px;
+        max-width:100%;
+        display:block;
+        margin:20px auto;
     }
 
-    nav ul{
-        flex-direction:column;
-        margin-top:15px;
+    .hero{
+        padding-top:120px;
     }
 
-    nav ul li{
-        margin:10px 0;
-    }
-
-    .hero h1{
-        font-size:35px;
-    }
-
-    .hero h2{
-        font-size:22px;
-    }
-
-    .hero p{
-        width:90%;
-    }
-
-    #about,
-    #skills,
-    #projects,
-    #contact{
-        padding:40px 20px;
-    }
-
-    .project-card{
-        width:90%;
+    img{
+        max-width:100%;
+        height:auto;
     }
 }
 #education,
