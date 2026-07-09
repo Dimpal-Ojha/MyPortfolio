@@ -27,6 +27,17 @@ nav{
     top:0;
     z-index:1000;
 }
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+}
+body {
+    padding-top: 70px;
+}
 
 nav h2{
     font-size:28px;
